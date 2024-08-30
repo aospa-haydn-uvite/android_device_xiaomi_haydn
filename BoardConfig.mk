@@ -31,6 +31,7 @@ BOARD_VENDOR_KERNEL_MODULES += \
 
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES += \
     $(KERNEL_MODULES_OUT)/focaltech_touch.ko \
+    $(KERNEL_MODULES_OUT)/qcom-hv-haptics.ko \
     $(KERNEL_MODULES_OUT)/xiaomi_touch.ko
 
 # Partitions
